@@ -41,6 +41,6 @@ class Owner
  end
  
  def walk_dogs
-   dogs.each {|dog|}
+   dogs.each {|dog| dog.}
  end
 end
