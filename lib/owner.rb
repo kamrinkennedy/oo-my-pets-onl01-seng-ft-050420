@@ -59,6 +59,10 @@ class Owner
    end
  end
  
+ def list_pets 
+   dogs.concat(cats)
+ end
+ 
 end
 
 
