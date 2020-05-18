@@ -48,6 +48,12 @@ class Owner
    cats.each {|cat| cat.mood = "happy"}
  end
  
+ def sell_pets
+   dogs.map do |dog|
+     dog.mood = "nervous"
+     dog.owner = nil
+   end
+ end
  
 end
 
